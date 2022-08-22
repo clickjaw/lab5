@@ -1,0 +1,104 @@
+{
+    "basic_info": {
+      "description_header": "Hello!",
+      "description": "I'm Tyler Morgan. I'm a student in software development with a foundation in Javascript and React.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Text-Based Adventure Game",
+        "startDate": "2022",
+        "description": "This was team project I did with a classmate Jordan. I wanted to emulate the early Apple2 text-based games. We did it in 3 days.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "https://clickjaw.github.io/teamProject/",
+        "technologies": [
+         
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JS"
+          }
+        ]
+      },
+      {
+        "title": "Cafe Website",
+        "startDate": "2022",
+        "description": "This was a solo project. I wanted to rebuild a website for the cafe I worked at plus add a reservation system that could be accessed in an Admin section. Reservations would be formatted in a DOM table for the Admin.",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "https://clickjaw.github.io/soloproject/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Tip Calculator",
+        "startDate": "2022",
+        "description": "This is the first project I ever did in Javascript. Self-explanatory. ",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://clickjaw.github.io/TipCalculator-TylerMorgan/",
+        "technologies": [
+          {
+            "class": "devicon-javascrip-plain",
+            "name": "JS"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          }
+         
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Code Crew",
+        "title": "Student",
+        "years": "May 2022 - Current",
+        "mainTech": [
+          "Current"
+        ],
+        "technologies": [
+          "Javascript",
+          "React",
+          "HTML5",
+          "CSS"
+        ]
+      },
+    
+      {
+        "company": "",
+        "title": "",
+        "years": "",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+          ""
+        ]
+      }
+      ]
+  }

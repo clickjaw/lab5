@@ -1,0 +1,125 @@
+body[data-theme="dark"] {  
+
+   @import '/src/scss/dark-slider.scss';
+
+   color: yellowgreen;
+
+   .slider-tab {
+      background-color: #000000;
+   }
+
+   .title-styles {
+      color: white;
+   }
+
+   .header-icon {
+      color: #3C342C;
+      opacity: 0.8;
+   }
+
+   .slider-image {
+      border: 5px solid #8C8C8C;
+   }
+   footer{
+      color: yellowgreen;
+   }
+
+   .language {
+      background-color: yellowgreen;
+   }
+
+   .link-href {
+      color: white;
+   }
+
+   .project-date {
+      background-color: #black;
+      color: yellowgreen;
+   }
+
+   header {
+      background-color: #000000;
+      h1 {
+         color: greenyellow;
+         font-family: "courier";
+         text-decoration: none;
+         font-size: 32px;
+
+      }
+   
+   }
+
+   .header-icon{
+   border: yellowgreen 5px dashed;
+   }
+
+   #about {
+      background-color: #7f7f7f;
+      h1 span {
+         color: white;
+      }
+      .polaroid span {
+         background:  #6d6d6d;
+      }
+      .card {
+         background: #6d6d6d;
+         color: white;
+      }
+   }
+
+   #portfolio {
+      background: #5b5b5b;
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #6d6d6d;
+      }
+      .project-title-settings {
+         color: white;
+      }
+   }
+
+   #resume {
+      filter: brightness(80%);
+      background: black;
+      color: yellowgreen;
+      .section-title {
+         color: yellowgreen !important;
+      }
+
+      .experience-badge {
+         background: black !important;
+         color: yellowgreen;
+      }
+
+      .main-badge {
+         background: #919191 !important;
+         color: yellowgreen
+      }
+
+      .vertical-timeline-element-date {
+         color: yellowgreen;
+         
+      }
+
+      .vertical-timeline-element-icon {
+         background: yellowgreen !important;
+      }
+      @media only screen and (max-width: 1169px) { 
+         .vertical-timeline-element-date {
+            color: yellowgreen;
+
+         }
+      }
+   }
+
+   .modal-inside .modal-content {
+      background: #5b5b5b;
+      color: white;
+   }
+
+   .close-icon {
+      color: white;
+   }
+}
